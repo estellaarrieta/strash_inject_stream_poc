@@ -1,0 +1,11 @@
+name: inject_stream_poc
+description: inject_stream_poc
+url: https://github.com/stashapp/CommunityScripts
+version: 0.1
+
+ui:
+  javascript:
+    - inject_stream_poc.js
+  csp:
+    connect-src:
+      - https://devstreaming-cdn.apple.com
